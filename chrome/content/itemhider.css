@@ -1,0 +1,19 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.searchbar-engine-button,
+#toolbar-menubar, 
+#toolbar-context-menu,
+#placesContext, 
+#contentAreaContextMenu,
+#context_bookmarkAllTabs,
+#context_openTabInWindow,
+#PersonalToolbar,
+#window-controls,
+#autohide-context,
+#browser-bottombox,
+#home-button,
+#star-button,
+#feed-button,
+#context_bookmarkTab {
+  display: none !important;
+}

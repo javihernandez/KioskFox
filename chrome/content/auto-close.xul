@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<dialog id="auto-close" 
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  onload="close();">
+</dialog>

@@ -1,0 +1,16 @@
+#logout-button,
+#wrapper-logout-button
+  {list-style-image: url("chrome://kioskfox/content/logout.png");}
+
+/* common style for all custom buttons */
+.logout-button                  
+  {-moz-image-region: rect( 0px 75px 22px  0px);}
+
+.logout-button:hover     
+  {-moz-image-region: rect(24px 75px 46px  0px);}
+
+[iconsize="small"] .logout-button
+  {-moz-image-region: rect( 0px 75px 22px 0px);}
+
+[iconsize="small"] .logout-button:hover
+  {-moz-image-region: rect(24px 75px 46px 0px);}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="chrome://kioskfox/content/logout.css"?>
+
+<overlay id="logout-button-overlay" 
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+<toolbarpalette id="BrowserToolbarPalette"><toolbarbutton id="logout-button"/></toolbarpalette>
+
+<toolbarbutton 
+  id="logout-button"
+  label="Logout"
+  tooltiptext="Logout: Clear all private data"
+  oncommand="goQuitApplication();"
+  class="toolbarbutton-1 chromeclass-toolbar-additional logout-button"/>
+  
+</overlay>

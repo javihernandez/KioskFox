@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<wizard id="plugin-installer-wizard" 
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  onload="close();">
+</wizard>

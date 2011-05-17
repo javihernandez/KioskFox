@@ -1,0 +1,15 @@
+content kioskfox chrome/content/
+resource kioskfox resources/
+
+overlay chrome://browser/content/browser.xul chrome://kioskfox/content/kioskfox.xul
+overlay chrome://browser/content/browser.xul chrome://kioskfox/content/logout.xul
+
+override chrome://mozapps/content/downloads/unknownContentType.xul chrome://kioskfox/content/auto-close.xul
+override chrome://global/content/filepicker.xul chrome://kioskfox/content/auto-close.xul
+override chrome://mozapps/content/xpinstall/xpinstallConfirm.xul chrome://kioskfox/content/auto-close.xul
+override chrome://browser/content/pageinfo/pageInfo.xul chrome://kioskfox/content/auto-close.xul
+
+override chrome://mozapps/content/plugins/pluginInstallerWizard.xul chrome://kioskfox/content/pluginblocker.xul
+override chrome://browser/content/feeds/subscribe.xhtml chrome://kioskfox/content/subscribe.xhtml
+
+style chrome://browser/content/browser.xul chrome://kioskfox/content/itemhider.css
