@@ -1,1 +1,7 @@
 = KioskFox for MSU Student Labs
+
+This is a fork of the KioskFox plugin created by William Huffman (https://addons.mozilla.org/en-us/firefox/addon/kioskfox/).
+
+== License
+
+No licensing information was given from the original plugin, thus none is provided her.
