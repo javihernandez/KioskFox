@@ -11,9 +11,12 @@
 #window-controls,
 #autohide-context,
 #browser-bottombox,
-#home-button,
 #star-button,
 #feed-button,
+#urlbar,
+#searchbar,
+#TabsToolbar,
+#separator13059246348211,
 #context_bookmarkTab {
   display: none !important;
 }

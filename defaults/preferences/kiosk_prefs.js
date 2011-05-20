@@ -9,4 +9,3 @@ pref("browser.urlbar.autocomplete.enabled",false);
 pref("signon.rememberSignons",false);
 pref("browser.privatebrowsing.autostart",true);
 pref("dom.ipc.plugins.enabled.npswf32.dll",false);
-pref("dom.disable_window_open_feature.location",false);
