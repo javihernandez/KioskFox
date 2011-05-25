@@ -13,10 +13,11 @@
 #browser-bottombox,
 #star-button,
 #feed-button,
+#reload-button,
+#stop-button,
 #urlbar,
 #searchbar,
 #TabsToolbar,
-#separator13059246348211,
 #context_bookmarkTab {
   display: none !important;
 }

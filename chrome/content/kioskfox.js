@@ -112,7 +112,6 @@ function kioskInitialize()
 
   //customize the gui and prevent resizing of the search widget
   kioskInsertToolbarItem("logout-button",null);
-  kioskInsertToolbarItem("separator","urlbar-container");
 }
 
 window.addEventListener("load",kioskInitialize,false);
