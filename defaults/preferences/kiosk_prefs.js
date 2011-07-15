@@ -9,3 +9,5 @@ pref("browser.urlbar.autocomplete.enabled",false);
 pref("signon.rememberSignons",false);
 pref("browser.privatebrowsing.autostart",true);
 pref("dom.ipc.plugins.enabled.npswf32.dll",false);
+pref("browser.tabs.autoHide",true);
+pref("browser.tabs.closeButtons",0);
