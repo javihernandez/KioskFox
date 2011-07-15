@@ -8,8 +8,8 @@
 
 <toolbarbutton 
   id="logout-button"
-  label="Logout"
-  tooltiptext="Logout: Clear all private data"
+  label="Cerrar Sesión"
+  tooltiptext="Salir limpiando la información privada"
   oncommand="goQuitApplication();"
   class="toolbarbutton-1 chromeclass-toolbar-additional logout-button"/>
   
