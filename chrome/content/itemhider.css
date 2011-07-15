@@ -18,6 +18,7 @@
 #urlbar,
 #searchbar,
 #TabsToolbar,
+.tabs-newtab-button,
 #context_bookmarkTab {
   display: none !important;
 }
