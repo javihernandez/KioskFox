@@ -1,0 +1,19 @@
+#halt-button,
+#wrapper-halt-button
+  {list-style-image: url("chrome://kioskfox/content/halt.png");}
+
+/* common style for all custom buttons */
+
+.halt-button                  
+  {-moz-image-region: rect( 0px 24px 24px  0px);}
+
+/*
+.halt-button:hover     
+  {-moz-image-region: rect(24px 75px 46px  0px);}
+*/
+[iconsize="small"] .halt-button
+  {-moz-image-region: rect( 0px 24px 24px 0px);}
+/*
+[iconsize="small"] .halt-button:hover
+  {-moz-image-region: rect(24px 75px 46px 0px);}
+*/

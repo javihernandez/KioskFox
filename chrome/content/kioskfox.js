@@ -9,7 +9,7 @@ const kioskKeyWhitelist = [ "key_fullZoomReduce","key_fullZoomEnlarge","key_find
 var kioskTabProgressListener = {
   onLocationChange : function(aBrowser, aProgress, aRequest, aURI) {
     if(kioskUriWhiteList.indexOf(aURI.scheme) == -1 && aURI.spec != "about:blank" && aURI.spec != "about:home") {
-      loadURI("file:///usr/share/zona-autogestion/index.html");
+//      loadURI("file:///usr/share/zona-autogestion/index.html");
     }
   }
 };
@@ -112,6 +112,25 @@ function kioskInitialize()
 
   //customize the gui and prevent resizing of the search widget
   kioskInsertToolbarItem("logout-button",null);
+  kioskInsertToolbarItem("halt-button",null);
+
+}
+
+function runHaltCommand () {
+
+
+        var file = Components.classes["@mozilla.org/file/local;1"]
+                     .createInstance(Components.interfaces.nsILocalFile);
+        file.initWithPath("/usr/bin/gksudo");
+
+        var process = Components.classes["@mozilla.org/process/util;1"]
+                        .createInstance(Components.interfaces.nsIProcess);
+
+        process.init(file);
+
+        var args = ["-u", "root", "halt"];
+        process.run(false, args, args.length);
+
 }
 
 window.addEventListener("load",kioskInitialize,false);
