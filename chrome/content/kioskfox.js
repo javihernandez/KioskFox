@@ -9,7 +9,7 @@ const kioskKeyWhitelist = [ "key_fullZoomReduce","key_fullZoomEnlarge","key_find
 var kioskTabProgressListener = {
   onLocationChange : function(aBrowser, aProgress, aRequest, aURI) {
     if(kioskUriWhiteList.indexOf(aURI.scheme) == -1 && aURI.spec != "about:blank" && aURI.spec != "about:home") {
-      loadURI("http://studentlabs.montana.edu/");
+      loadURI("file:///usr/share/zona-autogestion/index.html");
     }
   }
 };
